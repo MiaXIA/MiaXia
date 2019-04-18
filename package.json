@@ -2,7 +2,7 @@
   "name": "miaxia.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://miaxia.github.io/MiaXia/",
+  "homepage": "https://miaxia.github.io/mcx/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
