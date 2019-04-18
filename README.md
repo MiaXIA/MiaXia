@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
-Master branch is used for development, and the published static files are in gh-pages branch
+Dev branch is used for development, and the published static files are in gh-pages branch
 
 ## Available Scripts
 
