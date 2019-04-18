@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.19153a92.chunk.css",
-  "main.js": "/static/js/main.9a4cf7aa.chunk.js",
-  "main.js.map": "/static/js/main.9a4cf7aa.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/static/js/2.6efc73d3.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.c6d23c07fa6886f7e3dee3ba0d9d112e.js": "/precache-manifest.c6d23c07fa6886f7e3dee3ba0d9d112e.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.19153a92.chunk.css.map": "/static/css/main.19153a92.chunk.css.map",
-  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+  "main.css": "/MiaXia/static/css/main.19153a92.chunk.css",
+  "main.js": "/MiaXia/static/js/main.cb2ee229.chunk.js",
+  "main.js.map": "/MiaXia/static/js/main.cb2ee229.chunk.js.map",
+  "runtime~main.js": "/MiaXia/static/js/runtime~main.95f5b23c.js",
+  "runtime~main.js.map": "/MiaXia/static/js/runtime~main.95f5b23c.js.map",
+  "static/js/2.6efc73d3.chunk.js": "/MiaXia/static/js/2.6efc73d3.chunk.js",
+  "static/js/2.6efc73d3.chunk.js.map": "/MiaXia/static/js/2.6efc73d3.chunk.js.map",
+  "index.html": "/MiaXia/index.html",
+  "precache-manifest.b7d55b0bdc64ebc3c0dcdc6508cffb64.js": "/MiaXia/precache-manifest.b7d55b0bdc64ebc3c0dcdc6508cffb64.js",
+  "service-worker.js": "/MiaXia/service-worker.js",
+  "static/css/main.19153a92.chunk.css.map": "/MiaXia/static/css/main.19153a92.chunk.css.map",
+  "static/media/logo.svg": "/MiaXia/static/media/logo.5d5d9eef.svg"
 }
