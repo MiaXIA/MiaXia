@@ -46,11 +46,53 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## How to deploy react app on github pages
 I created a react app at my local, then I tried to upload it onto git repository and deploy it with github pages.
 ### Create a New Empty Repository
+Create a new repository, note that avoid the format of `username/github.io` as repository name. Because it will mark this repo as personal pages and the defalut publish branch must be master and you cannot change it.
 ![image](https://github.com/MiaXIA/mcx/raw/dev/images/createRepo.png)
 
-### Settings
+You don't need readme and gitignore file, click `create repository` and you will have the new repo.
 
 ### Upload React App onto Repository
+I assume that you have a existed react app at local, then you can use terminal to upload this react app onto the repo you just created.
+
+``` java
+cd Desktop/personalBlogReactApp //go to the react app folder
+git init //init git
+//sometimes it will ask you gihub account and password if you didn't set up, follow the instruction and sign in
+git add . //add all files
+git commit -m "first commit" //commit to local
+git remote add origin https://github.com/MiaXIA/personalBlog.git //the repository address of project
+git push -u origin master //push all the files to remote branch
+```
+Then refresh the github page you can see all the codes are there.
 
 ### Setup Deploy Script and Package.json file
+You need to install a package called gh-pages
+``` java
+npm install --save gh-pages
+```
+
+Then you need to edit the package.json file in your react app, add the homepage and some deploy scripts.
+``` java
+"homepage":"https://yourusername.github.io/repository-name"
+//Here my homepage address will be https://miaxia.github.io/mcx/
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+}
+```
+You are almost done! In your terminal, you need one more line:
+``` java
+npm run deploy
+```
+
+### Settings
+After created the new repo and uploaded the react app. Goto the settings on the repo's main page, scroll down and find the `GitHub Pages` title.
+Once you successfully deployed, then one last thing you need to do is change the `Source` of `Github Pages` to `gh-pages branch`
+![image](https://github.com/MiaXIA/mcx/raw/dev/images/githubPages.png)
+
+Also you can see the notification `Your site is publish at xxx` once you change the source branch.
+
+Enjoy your new react app personal blog!
+
+
 
